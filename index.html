@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Include Font Awesome CDN in your <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PRASATHBABU CHANDRASEKARN - Resume</title>
@@ -28,11 +31,13 @@
       background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');
     }
     .experience {
-      background-image: url('https://images.unsplash.com/photo-1581090700227-1e8e891691d9');
-    }
-    .projects {
-      background-image: url('https://images.unsplash.com/photo-1531497865141-259b1e5c92f0');
-    }
+  background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80');
+}
+
+.projects {
+  background-image: url('https://images.unsplash.com/photo-1551434678-e076c223a692?auto=compress&cs=tinysrgb&fit=crop&w=1600&q=80');
+}
+
     .skills {
       background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475');
     }
@@ -55,14 +60,38 @@
     ul {
       line-height: 1.6;
     }
+  .content-box {
+    color: white;
+  }
+
+  .content-box a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .content-box a:hover {
+    text-decoration: underline;
+  }
+</style>
   </style>
 </head>
 <body>
   <section class="parallax header">
-    <div class="content-box">
-      <h1>PRASATHBABU O.S.C</h1>
-      <p>Email: pbiosdev@gmail.com | Mobile: +91-9944667818</p>
-    </div>
+    <div class="content-box" align="center">
+  <h1>PRASATHBABU CHANDRASEKARAN</h1>
+  <p>
+    <i class="fas fa-envelope"></i>
+    <a href="mailto:pbiosdev@gmail.com">pbiosdev@gmail.com</a> |
+    
+    <i class="fas fa-phone-alt"></i>
+    <a href="tel:+919944667818">+91-9944667818</a> |
+    
+    <i class="fab fa-linkedin"></i>
+    <a href="https://www.linkedin.com/in/prasathbabu-chandrasekaran-7b67576a/" target="_blank">
+      LinkedIn Profile
+    </a>
+  </p>
+</div>
   </section>
 
   <section class="parallax experience">
@@ -105,18 +134,20 @@
     </div>
   </section>
 
-  <section class="parallax education">
+  <section class="parallax education" >
     <div class="content-box">
       <h2>Education</h2>
       <ul>
+        <li>B.Tech in Information Technology, Latha Mathavan Engineering College – 72%</li>
+      </ul>
+      <h2>Certifications</h2>
+      <ul>
         <li>B.Tech (IT), Latha Mathavan Engineering College – 72%</li>
-        <li>Diploma (IT), K.L.N. Polytechnic College – 75%</li>
-        <li>SSLC, Good Luck Matriculation – 66%</li>
       </ul>
     </div>
   </section>
 
-  <section class="contact">
+  <!-- <section class="contact">
     <div class="content-box">
       <h2>Personal Details</h2>
       <ul>
@@ -127,6 +158,6 @@
       </ul>
       <p style="margin-top: 20px;">Place: Madurai<br>Date: <br><strong>(PRASATHBABU O.S.C)</strong></p>
     </div>
-  </section>
+  </section> -->
 </body>
 </html>
